@@ -1,0 +1,1517 @@
+{
+  "timestamp" : "2022-03-25 14:14:52.625",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 24278 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:14:52.649",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:14:52.650",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:14:55.884",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:14:56.695",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.616 seconds (JVM running for 10.439)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:15:49.070",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:15:49.132",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=dibya, password=cropy)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:15:49.520",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWJ5YSIsImV4cCI6MTY0ODIxNTk0OSwiaWF0IjoxNjQ4MTk3OTQ5fQ.Y1FV6u---gKWHdu7Rc5y3lzl_cJ1KOIcpTaQifF1gE4NckhfDyafivdQWNEya12CKtj153B1yHY5PKiSvDq3Ew)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:01.248",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:01.267",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:12.960",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:22.954",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:22.958",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:23.547",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:23.553",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.025",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-10",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.030",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-10",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.298",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.302",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.828",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:16:24.833",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:19.397",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 24341 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:19.413",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:19.414",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:22.839",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:23.682",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.886 seconds (JVM running for 10.711)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:28.512",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:28.536",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:31.250",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:33.018",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:18:35.801",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:16.665",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 24359 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:16.681",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:16.682",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:20.260",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:21.099",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.958 seconds (JVM running for 10.751)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:36.992",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:37.008",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:40.908",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:19:42.199",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:20:35.666",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 24378 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:20:35.679",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:20:35.680",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:20:38.879",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 14:20:39.723",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.549 seconds (JVM running for 10.348)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:35:34.265",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 26975 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:35:34.289",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:35:34.289",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:35:37.693",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:35:38.572",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.883 seconds (JVM running for 10.625)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:36:36.158",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:36:36.226",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=dibya, password=cropy)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:36:36.594",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWJ5YSIsImV4cCI6MTY0ODIyNDM5NiwiaWF0IjoxNjQ4MjA2Mzk2fQ._0vQDHo581p250E_GO574KbzX09IWNIeki6KRPWFiVC55ZQDRRVtMp7GXxsEbGtdcxfQuQMazncI7wXknRI_eg)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:36:50.743",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:24.111",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27131 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:24.132",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:24.133",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:27.220",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:28.034",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.453 seconds (JVM running for 10.343)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:30.435",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:40:30.451",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/find\\/33\",\"responseBody\":\"Note not found with id :33\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:56:52.439",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27549 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:56:52.454",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:56:52.455",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:56:55.758",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:56:56.571",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.639 seconds (JVM running for 10.4)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:57:47.760",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:57:47.819",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=dibya, password=cropy)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:57:48.178",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWJ5YSIsImV4cCI6MTY0ODIyNTY2OCwiaWF0IjoxNjQ4MjA3NjY4fQ.o0BAJ6f4xoYO3OsKS8X0OH5Dr3lQH8OmaWpTwe2kcqhbRZQpcjMo2GImcjhHuBioO7tNKyPMffwdBUYaKX-UGg)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:57:58.645",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 16:57:58.709",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:24.386",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27646 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:24.402",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:24.403",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:27.503",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:28.333",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.491 seconds (JVM running for 10.318)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:32.426",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:02:32.498",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:04:55.454",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27695 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:04:55.467",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:04:55.467",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:04:58.838",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:04:59.625",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.629 seconds (JVM running for 10.41)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:00.222",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:00.296",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:48.334",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27712 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:48.350",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:48.351",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:51.273",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:52.053",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.226 seconds (JVM running for 9.99)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:55.876",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:05:55.948",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:06:33.396",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27723 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:06:33.415",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:06:33.416",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:06:36.813",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:06:37.709",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.857 seconds (JVM running for 10.623)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:07:00.205",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:07:00.278",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:43.980",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27784 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:44.004",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:44.005",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:46.917",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:47.643",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.196 seconds (JVM running for 9.975)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:49.878",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:08:49.960",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/1\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:10:32.233",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:10:32.255",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/2\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:11:13.983",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:11:14.001",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/2\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:39.624",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27913 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:39.643",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:39.645",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:42.670",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:43.414",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.448 seconds (JVM running for 10.298)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:43.948",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:44.007",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/2\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:45.247",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:14:45.258",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/2\",\"responseBody\":\"could not execute statement; SQL [n\\/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:18.154",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27926 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:18.167",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:18.168",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:21.829",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:22.723",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 5.053 seconds (JVM running for 10.805)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:24.332",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:15:24.347",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 2 has been successfully deleted\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:30.144",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27951 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:30.157",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:30.158",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:33.148",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:34.019",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.36 seconds (JVM running for 10.113)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:35.263",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:35.278",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 1 has been successfully deleted\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:39.711",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:39.722",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/3\",\"responseBody\":\"Note not found with id :3\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:46.883",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:16:46.888",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/delete\\/4\",\"responseBody\":\"Note not found with id :4\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:05.909",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:05.931",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)]), Note(id=2, title=mynote2, description=[TODO(id=3, status=DONE, value=ee), TODO(id=4, status=DONE, value=eee)]), Note(id=7, title=NoteEx1, description=[TODO(id=15, status=PENDING, value=todoEx1), TODO(id=16, status=PENDING, value=todoEx2)]), Note(id=8, title=NoteEx1, description=[TODO(id=17, status=PENDING, value=todoEx1), TODO(id=18, status=PENDING, value=todoEx2)]), Note(id=9, title=NoteEx1, description=[TODO(id=19, status=PENDING, value=todoEx1), TODO(id=20, status=PENDING, value=todoEx2)]), Note(id=10, title=NoteEx1, description=[TODO(id=21, status=PENDING, value=todoEx1), TODO(id=22, status=PENDING, value=todoEx2)]), Note(id=11, title=NoteEx1, description=[TODO(id=23, status=PENDING, value=todoEx1), TODO(id=24, status=PENDING, value=todoEx2)]), Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)]), Note(id=13, title=mynote, description=[TODO(id=27, status=PENDING, value=todo1), TODO(id=28, status=PENDING, value=todo2)])]\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:29.246",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 27966 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:29.262",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:29.263",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:32.115",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:17:32.914",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.154 seconds (JVM running for 9.924)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:27.676",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 28010 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:27.691",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:27.692",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:31.026",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:31.995",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.86 seconds (JVM running for 10.611)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:40.416",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:40.502",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 1 has been successfully deleted\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:56.086",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:20:56.121",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 2 has been successfully deleted\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:21:12.495",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:21:12.515",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[Note(id=7, title=NoteEx1, description=[TODO(id=15, status=PENDING, value=todoEx1), TODO(id=16, status=PENDING, value=todoEx2)]), Note(id=8, title=NoteEx1, description=[TODO(id=17, status=PENDING, value=todoEx1), TODO(id=18, status=PENDING, value=todoEx2)]), Note(id=9, title=NoteEx1, description=[TODO(id=19, status=PENDING, value=todoEx1), TODO(id=20, status=PENDING, value=todoEx2)]), Note(id=10, title=NoteEx1, description=[TODO(id=21, status=PENDING, value=todoEx1), TODO(id=22, status=PENDING, value=todoEx2)]), Note(id=11, title=NoteEx1, description=[TODO(id=23, status=PENDING, value=todoEx1), TODO(id=24, status=PENDING, value=todoEx2)]), Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)]), Note(id=13, title=mynote, description=[TODO(id=27, status=PENDING, value=todo1), TODO(id=28, status=PENDING, value=todo2)])]\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-25 17:30:26.423",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 28215 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:26.463",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:26.464",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:29.739",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:30.606",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.804 seconds (JVM running for 10.601)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:36.028",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:30:36.051",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[Note(id=7, title=NoteEx1, description=[TODO(id=15, status=PENDING, value=todoEx1), TODO(id=16, status=PENDING, value=todoEx2)]), Note(id=8, title=NoteEx1, description=[TODO(id=17, status=PENDING, value=todoEx1), TODO(id=18, status=PENDING, value=todoEx2)]), Note(id=9, title=NoteEx1, description=[TODO(id=19, status=PENDING, value=todoEx1), TODO(id=20, status=PENDING, value=todoEx2)]), Note(id=10, title=NoteEx1, description=[TODO(id=21, status=PENDING, value=todoEx1), TODO(id=22, status=PENDING, value=todoEx2)]), Note(id=11, title=NoteEx1, description=[TODO(id=23, status=PENDING, value=todoEx1), TODO(id=24, status=PENDING, value=todoEx2)]), Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)]), Note(id=13, title=mynote, description=[TODO(id=27, status=PENDING, value=todo1), TODO(id=28, status=PENDING, value=todo2)])]\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:32:04.641",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:32:04.671",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\",\"requestBody\":\"UserDTO(username=test, password=testpass)\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:32:04.820",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:13.548",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 28316 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:13.586",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:13.587",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:16.763",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:17.520",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.652 seconds (JVM running for 10.413)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:18.982",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:19.037",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\",\"requestBody\":\"UserDTO(username=testuser, password=testpass)\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:35:19.182",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:41:54.768",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:41:54.773",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=testuser, password=testpass)\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:41:55.111",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0dXNlciIsImV4cCI6MTY0ODIyODMxNSwiaWF0IjoxNjQ4MjEwMzE1fQ.6uFgUh17Fzpt8ESgmGujw2EWVuXlA1Q7Iu77zLhputzf5p3WfD68ZlPkwPdFnYbaz9OGmFk4Gmfl4IUm8s09Sg)\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:42:18.703",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"requestBody\":\"NoteDTO(title=mynote, description=[TodoDTO(value=todo1), TodoDTO(value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:42:18.750",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"responseBody\":\"Note(id=14, title=mynote, description=[TODO(id=29, status=PENDING, value=todo1), TODO(id=30, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:43:27.963",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"requestBody\":\"Note(id=14, title=mynoteupdated, description=[TODO(id=29, status=PENDING, value=todo1), TODO(id=30, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:43:27.980",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"responseBody\":\"Note(id=14, title=mynoteupdated, description=[TODO(id=29, status=PENDING, value=todo1), TODO(id=30, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:44:22.743",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-10",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:44:22.777",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-10",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 14 has been successfully deleted\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:44:34.318",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:44:34.326",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:02.727",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Starting NotesApplication using Java 17.0.2 on Dibyaprakash-Pradhan-B600-MacBook-Pro.local with PID 28619 (/Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication/target/classes started by dibyaprakashpradhan in /Users/dibyaprakashpradhan/eclipse-workspace/NotesApplication)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:02.746",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Running with Spring Boot v2.6.4, Spring v5.3.16",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:02.746",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:05.877",
+  "level" : "DEBUG",
+  "thread" : "main",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "Filter 'jwtRequestFilter' configured for use",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:06.681",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.dib.NotesApplication",
+  "message" : "Started NotesApplication in 4.764 seconds (JVM running for 10.578)",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:10.730",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:10.760",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:11.803",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:11.821",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:35.430",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:35.443",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/find\\/12\",\"responseBody\":\"You don't have a note with such id :12\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:40.646",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:40.654",
+  "level" : "ERROR",
+  "thread" : "http-nio-3535-exec-5",
+  "logger" : "com.dib.exception.GlobalExceptionHandler",
+  "message" : "{\"path\":\"uri=\\/api\\/note\\/find\\/14\",\"responseBody\":\"Note not found with id :14\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:45.466",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"requestBody\":\"NoteDTO(title=mynote, description=[TodoDTO(value=todo1), TodoDTO(value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:45.524",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-6",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"responseBody\":\"Note(id=15, title=mynote, description=[TODO(id=31, status=PENDING, value=todo1), TODO(id=32, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:50.735",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-7",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:48:50.743",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-7",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=15, title=mynote, description=[TODO(id=31, status=PENDING, value=todo1), TODO(id=32, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:49:09.654",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:49:09.664",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[Note(id=15, title=mynote, description=[TODO(id=31, status=PENDING, value=todo1), TODO(id=32, status=PENDING, value=todo2)])]\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:56:58.233",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"requestBody\":\"Note(id=15, title=mynoteupdated, description=[TODO(id=29, status=PENDING, value=todo1), TODO(id=30, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:56:58.255",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-2",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"responseBody\":\"Note(id=15, title=mynoteupdated, description=[TODO(id=29, status=PENDING, value=todo1), TODO(id=30, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:57:09.077",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:57:09.102",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\",\"responseBody\":\"Note - 15 has been successfully deleted\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:57:26.791",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}
+{
+  "timestamp" : "2022-03-25 17:57:26.795",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[]\"}",
+  "context" : "default"
+}

@@ -1,0 +1,127 @@
+{
+  "timestamp" : "2022-03-24 23:28:28.158",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:28:28.217",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\",\"requestBody\":\"com.dib.dto.UserDTO@4d1f8fe8\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:28:28.364",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/register\",\"responseBody\":\"User(id=4, username=dibya1, password=$2a$10$2.ZHbfKZ6OHGRD.Pxu\\/mA.KJzE\\/xMC70VM6rpd44eni9K1Brvd0Q2, active=0, noteList=null)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:29:23.431",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:29:23.437",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=dibya, password=cropy)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:29:23.820",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-3",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWJ5YSIsImV4cCI6MTY0ODE2Mjc2MywiaWF0IjoxNjQ4MTQ0NzYzfQ._xlx1jjNQYIflUUpTBNRj7NVzH3ESygK10FSTBGU7ZsgkVzlluclKV3YLm9fohSNe94d0S5gPrtgFT1p02ZzrQ)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:31:29.578",
+  "level" : "WARN",
+  "thread" : "http-nio-3535-exec-7",
+  "logger" : "com.dib.config.JwtRequestFilter",
+  "message" : "JWT Token does not begin with Bearer String",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:31:29.580",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-7",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"requestBody\":\"JwtRequest(username=dibya, password=cropy)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:31:29.707",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-7",
+  "logger" : "com.dib.controller.JwtAuthenticationController",
+  "message" : "{\"path\":\"\\/authenticate\",\"responseBody\":\"JwtResponse(jwttoken=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWJ5YSIsImV4cCI6MTY0ODE2Mjg4OSwiaWF0IjoxNjQ4MTQ0ODg5fQ.79PyXsUYtxs06mvNy9Xs23kY0K2X8bBWqLyn3oX56CA5Wi0HkPSTGAScXC4uXgmRWLauYJXc-dU2aJZf2qVAFg)\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:31:41.357",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"requestBody\":\"com.dib.dto.NoteDTO@44b406a1\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:31:41.427",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-8",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/create\",\"responseBody\":\"Note(id=13, title=mynote, description=[TODO(id=27, status=PENDING, value=todo1), TODO(id=28, status=PENDING, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:32:14.795",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"requestBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:32:14.817",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-9",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/update\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:32:42.401",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-10",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/delete\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:33:25.643",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:33:25.647",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-1",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/find\",\"responseBody\":\"Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)])\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:34:28.630",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\"}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-24 23:34:28.650",
+  "level" : "INFO",
+  "thread" : "http-nio-3535-exec-4",
+  "logger" : "com.dib.controller.NoteController",
+  "message" : "{\"path\":\"\\/myNotes\",\"responseBody\":\"[Note(id=1, title=mynotenew, description=[TODO(id=1, status=DONE, value=todo1), TODO(id=2, status=DONE, value=todo2)]), Note(id=2, title=mynote2, description=[TODO(id=3, status=DONE, value=null), TODO(id=4, status=DONE, value=null)]), Note(id=7, title=NoteEx1, description=[TODO(id=15, status=PENDING, value=todoEx1), TODO(id=16, status=PENDING, value=todoEx2)]), Note(id=8, title=NoteEx1, description=[TODO(id=17, status=PENDING, value=todoEx1), TODO(id=18, status=PENDING, value=todoEx2)]), Note(id=9, title=NoteEx1, description=[TODO(id=19, status=PENDING, value=todoEx1), TODO(id=20, status=PENDING, value=todoEx2)]), Note(id=10, title=NoteEx1, description=[TODO(id=21, status=PENDING, value=todoEx1), TODO(id=22, status=PENDING, value=todoEx2)]), Note(id=11, title=NoteEx1, description=[TODO(id=23, status=PENDING, value=todoEx1), TODO(id=24, status=PENDING, value=todoEx2)]), Note(id=12, title=NoteEx1, description=[TODO(id=25, status=PENDING, value=todoEx1), TODO(id=26, status=PENDING, value=todoEx2)]), Note(id=13, title=mynote, description=[TODO(id=27, status=PENDING, value=todo1), TODO(id=28, status=PENDING, value=todo2)])]\"}",
+  "context" : "default"
+}
