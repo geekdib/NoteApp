@@ -5,7 +5,7 @@ spring:
     pathmatch:
       matching-strategy: ant-path-matcher
   main:
-    allow-circular-references: false
+    allow-circular-references: true
   datasource:
     password: WitchMYSQL
     url: jdbc:mysql://localhost:3306/noteapp
