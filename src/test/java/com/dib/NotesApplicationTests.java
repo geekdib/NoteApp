@@ -14,12 +14,12 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.dib.dto.NoteDTO;
-import com.dib.dto.TodoDTO;
-import com.dib.entity.Note;
-import com.dib.entity.TODO;
-import com.dib.enums.Status;
-import com.dib.service.NoteService;
+import com.geekyants.dto.NoteDTO;
+import com.geekyants.dto.TodoDTO;
+import com.geekyants.entity.Note;
+import com.geekyants.entity.TODO;
+import com.geekyants.enums.Status;
+import com.geekyants.service.NoteService;
 
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)

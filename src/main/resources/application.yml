@@ -1,5 +1,5 @@
 jwt:
-  secret: geekdibya
+  secret: notesecret
 spring:
   mvc:
     pathmatch:
@@ -7,13 +7,13 @@ spring:
   main:
     allow-circular-references: true
   datasource:
-    password: WitchMYSQL
+    password: Witch043
     url: jdbc:mysql://localhost:3306/noteapp
     username: root
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect

@@ -38,7 +38,7 @@
 		<appender-ref ref="STDOUT" />
 	</root>
 
-	<logger name="com.dib" level="ALL" additivity="true">
+	<logger name="com.geekyants" level="ALL" additivity="true">
 		<appender-ref ref="FILE-ROLLING" />
 	</logger>
 </configuration>
